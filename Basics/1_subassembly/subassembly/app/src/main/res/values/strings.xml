@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Subassembly</string>
+
+    <string name="simple_lifecycle">simple_lifecycle</string>
+
+    <string name="next_activity">NextActivity</string>
+
+    <string name="last_activity">LastActivity</string>
 </resources>

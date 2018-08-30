@@ -3,6 +3,7 @@
           package="com.saturn.subassembly">
 
     <application
+        android:name=".app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +17,16 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".simple_lifecycle.SimpleLifecycleActivity"/>
+
+        <activity android:name=".simple_lifecycle.FirstActivity"/>
+
+        <activity android:name=".simple_lifecycle.SecondActivity"/>
+
+        <activity android:name=".simple_lifecycle.ThirdActivity"/>
+
+
     </application>
 
 </manifest>
